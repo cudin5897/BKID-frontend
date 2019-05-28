@@ -1,0 +1,27 @@
+#leftside #content .sTab1 {
+    padding:15px;
+    font-size: 20px;
+    color: #445870;
+    background-color: white;
+    border: 1px solid #445870;
+    border-bottom: 0px;
+}
+#leftside #content .sTab1[id="History"] {
+    background-color: #445870;
+    color: white;
+}
+#leftside #content .sTab1[id="Income"] {
+    background-color: white;
+    color: #445870;
+}
+#sTab1{
+    border-bottom:1px solid #445870;
+    margin-right: 114px;
+}
+
+#anotherInfo1{
+    position: fixed;
+    display:inline-block;
+    right:300px;
+    top:300px;
+}

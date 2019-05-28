@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container"><canvas id="myChart"></canvas></div>
+    aaaaa
+    <script>
+      let myChart= document.getElementById('myChart').getContext('2d');
+      Chart.defaults.global.defaultFontFamily='Lato';
+      Chart.defaults.global.defaultFontSize=18;
+      Chart.defaults.global.defaultFontColor='#777';
+      let massPopChart = new Chart(myChart,{
+          type: 'line',
+          data:{
+              labels:['Boston','Worcester','Springfiled','Lowell','Cambridge', 'New Bedford'],
+              datasets:[{
+                  label:'Population',
+                  data:[
+                      123,
+                      345,
+                      2986,
+                      12564,
+                      67,
+                      2495
+                  ],
+                  backgroundColor:['green','blue']
+              }]
+
+          },
+          options:{
+              title:{
+                  display:true,
+                  text:'Largest In Massachusets',
+                  fontSize:25
+              },
+              legend:{
+                  display:false,
+                  position:'right',
+                  labels:{
+                      fontColor:'#000'
+                  }
+              },
+              layout:{
+                  padding:{
+                      left:50,
+                      right:0,
+                      bottom:0,
+                      top:0
+                  }
+              },
+              tooltips:{
+                  enabled:false
+              }
+          }
+
+      });
+    </script>
+  </body>
+</html>

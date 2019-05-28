@@ -1,0 +1,40 @@
+#general{
+  width:100%;
+  text-align: center;
+  top:0px;
+}
+#Home{
+  padding-top:20px;
+  display: inline-block;
+  width: 80%;
+  height:640px;
+  background-color: #FFE4B3;
+  border-radius: 7px;
+  /* padding-right:200px; */
+  font-size:30px;
+}
+#anh_bk{
+  position: fixed;
+  top:50px;
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#general_data{
+  font-size: 50px;
+  color:white;
+  padding-top:280px;
+  padding-left: 320px;
+}
+.center {
+  position: fixed;
+  text-align: center;
+}

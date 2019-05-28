@@ -1,0 +1,38 @@
+
+
+  #navabar{
+    background-color: rgb(42, 42, 40);
+    color: white;
+    width:100%;
+    height:50px;
+    position: fixed;
+    padding: 4px 0px;
+  }
+  #logo{
+    font-size: 18px;
+  }
+  #home_text{
+    padding-left: 50px;
+    font-size: 18px;
+  }
+  #login_text{
+    padding-top:4px;
+    padding-right: 50px;
+    font-size:18px
+  }
+  #login_but{
+    background-color: rgb(42, 42, 40);
+    color:#17a2b8;
+    width:100px;
+    border:1px solid #17a2b8;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #login_but:hover{
+    background-color: rgb(29, 29, 27);
+    color:#107686;
+    width:100px;
+    border:1px solid #107686;
+  }

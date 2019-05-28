@@ -1,0 +1,25 @@
+
+#square1, #square2, #square3{ 
+    background-color: white;
+    padding:15px;
+    width: 317px;
+    font-size: 16px;
+    display:inline-block;
+    border-radius: 7px;
+}
+#stationData{ 
+    background-color: white;
+    padding-right:150px;
+    padding-top:50px;
+    height: 100%;
+    width: 100%-2px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+#content2{
+    height:700px;
+    width:800px;
+    background-color: greenyellow;
+}
+

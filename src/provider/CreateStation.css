@@ -1,0 +1,56 @@
+#content{
+    padding-top:0px;
+}
+#bebas {
+    font-family: "Bebas Neue", Arial; 
+    font-size: 40px; 
+    color: #99f;
+    font-weight: bold;
+}
+#bebas1 {
+    font-family: "Bebas Neue", Arial; 
+    font-size: 40px; 
+    color: white;
+    font-weight: bold;
+}
+
+#station_tab{
+    display: inline-block;
+    padding-right: 20px;
+    /* color:red; */
+} 
+#station_account{
+    background-color: white;
+    text-align: center;
+    height:210px;
+    border-radius: 10px;
+}
+#station_data{
+    background-color: white;
+    text-align: center;
+    height:300px;
+    border-radius: 10px;
+}
+#station_tab input{
+    width:250px;
+    height:40px;
+    border: solid 1px #445870;
+    border-radius: 6px;
+    padding-left: 10px;
+} 
+#station_tab{
+    left:20px;
+    display: inline-block
+} 
+#station_tab input,select{
+    width:250px;
+    height:40px;
+    background-color: white;
+    border: solid 1px #445870;
+    border-radius: 6px;
+    padding-left: 10px;
+} 
+#station_mini_tab input{
+    width:50px;
+    height:20px; 
+} 

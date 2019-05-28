@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+#leftside {
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    background-color: #FFE4B3;
+}
+
+#leftside #cardtab  {
+    left: 20%;
+    width: 80%;
+    height: 10%;
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: white;
+    padding-top:20px;
+
+    
+}
+#leftside #cardtab #searchIcon {
+    padding-left:70%;
+    font-size: 25px;
+
+}
+#leftside #cardtab #avatarIcon {
+    padding-right:2%;
+    font-size: 25px;
+
+}
+
+
+#leftside #cardinfo {
+    left: 20%;
+    width: 100%;
+    height:1000px;
+    top:10%;
+    font-size: 30px;
+    color: #66717a;
+    font-family: 'Norwester', arial;
+    background-color:#FFE4B3;
+    padding:20px;
+    text-align: center;
+}
+
+#leftside #carddata {
+    text-align: center;
+    left: 20%;
+    width: 100%;
+    height:850px;  
+    background-color:#f0f4da;
+    padding:50px;
+    border-radius: 5px;
+}
+
+div #datatab1{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 100px;
+    width: 400px;
+    background-color: white;
+}
+div #datatab3{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 130px;
+    width: 261px;
+    background-color: white;
+}
+
+
+
+#container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+#leftside #carddata #cardicon {
+    text-align: center;
+    display: inline-block;
+    padding:10px;
+    vertical-align: middle;
+}
+#leftside #carddata #cardicon div{
+    display: inline-block;
+    padding:10px;
+    vertical-align: middle;
+}
+#leftside #carddata #cardicon div #imgicon{
+    vertical-align: middle;
+}
+
+ #holder{
+    width:100%;
+    text-align: center;
+}
+
+
+ #button2 {
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #c06e0c;
+    color: white;
+    border: 2px solid #c06e0c;
+    padding: 3px 10px;
+}
+
+ #button2:hover {
+    background-color: white;
+    color: #c06e0c;
+}
+
+ #button3 {
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #445870;
+    color: white;
+    border: 2px solid #445870;
+    padding: 3px 10px;
+}
+
+ #button3:hover {
+    background-color: white;
+    color: #445870;
+}
+#button4 {
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(180, 58, 58);
+    color: white;
+    padding: 3px 10px;
+}
+
+ #button4:hover {
+    background-color: rgb(109, 34, 34);
+    color: white;
+}
+#button5 {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 160px;
+    height:50px;
+    background-color: rgb(14, 125, 139);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 7px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+ #button5:hover {
+    background-color: white;
+    color: rgb(14, 125, 139);
+}
+
